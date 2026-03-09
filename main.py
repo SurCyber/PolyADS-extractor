@@ -59,7 +59,7 @@ class PolyADSUI(QWidget):
         self.output_path = ""
 
         self.init_ui()
-        self.apply_theme()   # 🎨 THE ONLY NEW CALL
+        self.apply_theme()
 
     def init_ui(self):
         layout = QVBoxLayout()
